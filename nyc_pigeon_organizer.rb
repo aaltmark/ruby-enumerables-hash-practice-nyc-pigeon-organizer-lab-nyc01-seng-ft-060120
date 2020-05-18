@@ -10,6 +10,7 @@ def nyc_pigeon_organizer(data)
     if !final_hash[new_name][key]
       final_hash[new_name][key] = []
     end
+    string_value = new_value.to_s
     final_hash[new_name][key] << new_value
   end
   end
